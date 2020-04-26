@@ -1,0 +1,118 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5em 31.5em 5em 3em;
+    grid-template-areas: 
+        "h h"
+        "s a"
+        "f f"
+        "c c";
+}
+.aboutpage .container {
+    height: 100%;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5em 33em 5em 3em;
+    grid-template-areas: 
+        "h h"
+        "s a"
+        "f f"
+        "c c";
+}
+section {
+    grid-area: s;
+}
+header {
+    grid-area: h;
+}
+aside {
+    grid-area: a;
+}
+
+footer {
+    grid-area: f;
+}
+.credit {
+    grid-area: c;
+}
+menu {
+    grid-area: m;
+}
+@media only screen and (max-width: 940px) {
+    .container {
+        height: 100%;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 5em 36.5em 12em 5em 3em;
+        grid-template-areas: 
+            "h h"
+            "s s"
+            "a a"
+            "f f"
+            "c c";
+    }
+    section {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutpage .container {
+        height: 100%;
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 5em 35em 25em 5em 3em;
+        grid-template-areas: 
+            "h h"
+            "s s"
+            "a a"
+            "f f"
+            "c c";
+    }
+    .aboutpage aside h1 {
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .container {
+        height: 100%;
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 5em 8em 35em 25em 5em 4em;
+        grid-template-areas: 
+            "h h"
+            "m m"
+            "s s"
+            "a a"
+            "f f"
+            "c c";
+    }
+    nav {
+        display: none;
+    }
+    menu {
+        display: flex;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutpage .container {
+        height: 100%;
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 5em 8em 35em 30em 5em 4em;
+        grid-template-areas: 
+            "h h"
+            "m m"
+            "s s"
+            "a a"
+            "f f"
+            "c c";
+    }
+}

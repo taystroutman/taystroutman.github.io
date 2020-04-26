@@ -1,0 +1,130 @@
+.container {
+    background-color: wheat;
+    height: 100%;
+    margin: 0;
+}
+/* Home Page */
+header {
+    width: 100%;
+    background-color: #383838;
+}
+
+header h1 {
+   
+    float: left;
+    font-family: 'Rye', cursive;
+    margin-left: 1em;
+    color: wheat;
+}
+ul{
+    width: auto;
+    float: right;
+}
+li {
+  display: inline-block;
+  padding: 1em 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  font-family: 'Bitter', serif;
+  color: wheat;
+}
+
+ header a:link, header a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+
+header a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    padding-right: 1em;
+    flex-direction: column;
+    justify-content: center;
+}
+aside h1 {
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+aside h2 {
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+aside p {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+footer {
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+footer ul {
+    float: none;
+}
+footer a:link, footer a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+footer a:hover {
+    color: white;
+    cursor: pointer;
+}
+.credit {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color: wheat;
+}
+menu {
+    display: none;
+}
+menu {
+    background-color: #383838;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+menu a {
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+}
+menu a:link, menu a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+menu a:hover {
+    color: white;
+    cursor: pointer;
+}
+/* Home Page */
+
+/* About Us Page */
+.aboutpage section {
+    display: flex;
+    justify-content: center;
+}
+.aboutpage aside p {
+    margin: 0px;
+}
+/* About Us Page */
